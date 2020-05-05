@@ -4,7 +4,9 @@ var buscarNombre = function buscarNombre (texto) {
 	var lineas= fs.readFileSync(texto).toString().split("\n");
 	var cadenaEncontrada;
 	for (var i = 0; i < lineas.length; ++i) {
-		cadenaEncontrada = texto.indexOf("Alejandro")
+		if(data.indexOf('Alejandro') >= 0){
+			cadenaEncontrada = lineas
+		   }
 	 }
 	 return cadenaEncontrada;
 }; 
