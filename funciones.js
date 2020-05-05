@@ -5,7 +5,7 @@ var buscarNombre = function buscarNombre (texto) {
 	var cadenaEncontrada;
 	for (var i = 0; i < lineas.length; ++i) {
 		if(texto.indexOf('Alejandro') > 0){
-			cadenaEncontrada = lineas[i];
+			cadenaEncontrada = "Alejandro";
 		   }
 	 }
 	 return cadenaEncontrada;
