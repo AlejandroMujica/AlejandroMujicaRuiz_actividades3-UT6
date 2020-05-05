@@ -2,11 +2,11 @@
 var buscarNombre = function buscarNombre (texto) {
 	var fs = require('fs');
 	var lineas= fs.readFileSync(texto).toString().split("\n");
-	var cadena;
+	var cadenaEncontrada;
 	for (var i = 0; i < lineas.length; ++i) {
-		cadena = cadena.indexOf(Alejandro)
+		cadenaEncontrada = cadena.indexOf(Alejandro)
 	 }
-	 return cadena;
+	 return cadenaEncontrada;
 }; 
 
 
