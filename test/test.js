@@ -8,7 +8,7 @@ var func = require('../funciones.js');
 
 // Test
 it('comprobar función suma', function() {
-	assert.equal(func.suma(1,3), 5);
+	assert.equal(func.suma(2,3), 5);
 	assert.equal(func.suma(-1,3), 2);
 	assert.equal(func.suma(8,-3), 5);
 });
