@@ -8,6 +8,6 @@ var func = require('../funciones.js');
 
 // Test
 it('comprobar función buscar Nombre', function() {
-	assert.equal(func.buscarNombre('texto.txt'),"Alejandro");
+	assert.equal(func.buscarNombre('../texto.txt'),"Alejandro");
 });
 
